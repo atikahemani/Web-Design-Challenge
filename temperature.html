@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temperature</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+<style>
+img {
+    padding: 30px;
+    display: block;
+    margin: 0 auto;
+    max-height: 125%;
+    max-width: 125%;
+}
+ .big-image {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 75%;
+    max-width: 75%;
+}
+</style>
+
+  <body>
+    
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" style="background-color: rgb(170, 131, 23)">Latitude</a>
+    
+          <div class="navbar-collapse collapse" id="navbarsExample01">
+    
+          </div>
+          <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle show" href="#" id="dropdown06" data-bs-toggle="dropdown" aria-expanded="true" style="color: black">Plots</a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdown06" data-bs-popper="static">
+                    <nav>
+                    <li><a class="dropdown-item" href="temperature.html">Max Temperature</a></li>
+                    <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                    <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                    <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+                  </nav>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="comparison.html" style="color: black">Comparison</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="data.html" style="color: black">Data</a>
+                </li>
+                </li>
+              </ul>
+            </div>
+            <nav class="navbar navbar-dark">
+              <button class="hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+              <!-- <button class="navbar-toggler d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation" style="color: black"> -->
+                <span class="navbar-toggler-icon" style="color: black; background-color: black"></span>
+              </button>
+            </nav>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle show" href="#" id="dropdown06" data-bs-toggle="dropdown" aria-expanded="true" style="color: black">Plots</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown06" data-bs-popper="static">
+                  <nav>
+                  <li><a class="dropdown-item" href="temperature.html">Max Temperature</a></li>
+                  <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                  <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                  <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+                </nav>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="comparison.html" style="color: black">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html" style="color: black">Data</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<main>
+
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row mt-5">
+      <div class="col-lg-8" style="background-color: white">
+        <h2 class="fw-normal">Max Temperature</h2>
+        <div class="row">
+            <img class="big-image" align="left" src = "assets/images/Fig1.png">
+        </div>
+        <div class="row">
+            <p>As you get closer to the equator, the temperature will gradually rise and be warm.From our plots, we can see this happening. Based on the months, the southern hemisphere and northern hemisphere are flipped. </p>
+        </div>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4" style="background-color: white">
+        <h2 class="fw-normal">Visualizations</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <a href="temperature.html"><img style="border: solid rgb(60, 0, 128)" src = "assets/images/Fig1.png"></a>
+          </div>
+          <div class="col-lg-6">
+            <a href="humidity.html"><img src = "assets/images/Fig2.png"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <a href="cloudiness.html"><img src = "assets/images/Fig3.png"></a>
+          </div>
+          <div class="col-lg-6">
+            <a href="windspeed.html"><img src = "assets/images/Fig4.png"></a>
+          </div>
+        </div>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+  </div><!-- /.container -->
+
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>
